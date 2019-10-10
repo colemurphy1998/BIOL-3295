@@ -1,0 +1,55 @@
+\documentclass[10pt, oneside]{article}   	% use "amsart" instead of "article" for AMSLaTeX format
+\usepackage[margin=2cm]{geometry}                		% See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   		% ... or a4paper or a5paper or ... 
+%\geometry{landscape}                		% Activate for for rotated page geometry
+\usepackage[parfill]{parskip}    		% Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}				% Use pdf, png, jpg, or eps§ with pdflatex; use eps in DVI mode
+							% TeX will automatically convert eps --> pdf in pdflatex		
+\usepackage{amssymb}
+\usepackage{hyperref}
+\usepackage{placeins}
+
+%\date{}							% Activate to display a given date or no date
+
+
+
+\begin{document}
+\textbf{BIOL 3295 Fall 2019}
+
+\textbf{Midterm due XXXX}
+
+\begin{description}
+\item[1.] May's logistic growth equation is,
+%
+\begin{equation}\label{eq:DTL}
+N_{t+1} = \lambda N_t \left(1-\frac{N_t}{K}\right).
+\end{equation}
+%
+In discrete time an equilibrium is defined as a value of $N_t$ such that $N_t = N_{t+1}$. Verify that $N_t=\frac{\lambda-1}{\lambda}K$ is an equilibrium point for equation \ref{eq:DTL}.
+
+\item[2.] Assuming that $N_t > 0$, rearranging equation \ref{eq:DTL} gives,
+%
+\begin{equation}\label{eq:DT2}
+\frac{N_{t+1}}{N_t} = \lambda - \lambda \frac{N_t}{K},
+\end{equation}
+%
+where $\frac{N_{t+1}}{N_t} > 1$ indicates an increase, $\frac{N_{t+1}}{N_t} = 1$ indicates no change, and $\frac{N_{t+1}}{N_t} < 1$  indicates a decrease in population size from year $t$ to year $t+1$. Sketch a graph with $\frac{N_{t+1}}{N_t}$ on the y-axis, and $N_t$ on the x-axis. For your graph label:
+\begin{description}
+\item[$\bullet$] The intercept on the y-axis,
+\item[$\bullet$] The intercept on the x-axis,
+\item[$\bullet$] The slope of the line,
+\item[$\bullet$] $\frac{N_{t+1}}{N_t} = 1$
+\item[$\bullet$] The value of $N_t$ where the lefthand side of equation \ref{eq:DT2} is equal to 1.
+\end{description}
+\item[3.]
+
+\end{description}
+
+
+\begin{thebibliography}{10}
+\bibitem[Vandermeer and Goldberg, 2013]{vandermeer} Vandermeer, J. H. and D. E. Goldberg, 2013. Population ecology: first principles. Princeton University Press. Available as an ebook from the MUN library. \url{https://ebookcentral.proquest.com/lib/mun/detail.action?docID=1205619}
+\end{thebibliography}
+
+
+
+\end{document}  
